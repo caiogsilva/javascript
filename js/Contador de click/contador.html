@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Click</title>
+    <style>
+        div {
+            background-color: antiquewhite;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            font-size: 80px;
+        }
+
+        .botao {
+            margin: auto;
+            width: 250px;
+            font-size: 25px;
+            background-color: crimson;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p id="count">0</p>
+        <section>
+            <button type="button" id="botaoadd" class="botao">+1</button>
+            <button type="button" id="botaorem" class="botao">-1</button>
+        </section>
+        <script src="contador.js"></script>
+    </div>
+</body>
+
+</html>
